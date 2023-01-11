@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Don't forget to remove Dummy Email Backend if you set it previously
+EMAIL_HOST = 'mailhog'  # Your Mailhog Host
+EMAIL_PORT = '1025'
 
 # Application definition
 
