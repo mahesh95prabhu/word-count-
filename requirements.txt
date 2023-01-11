@@ -1,0 +1,7 @@
+wheel
+pillow
+Django
+pytz
+sqlparse
+tzdata
+asgiref
